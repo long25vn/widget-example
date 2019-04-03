@@ -1,0 +1,45 @@
+[
+    {
+        "Type": 1,
+        "Code": [
+            "<div class=\"col s12 l7 xl8 mid-panel-right has-video\">\n          <style type=\"text/css\">\n\t* {\n\t\tbox-sizing: border-box;\n\t\tmargin: 0;\n\t\tpadding: 0;\n\t}\n\t\n\t.slideshow-container {\n\t\twidth: 100%;\n\t\theight: 100%;\n\t\tmin-height: 378px!important;\n\t\tposition: relative;\n\t\tdisplay: flex;\n\t\talign-items: center;\n\t\tbackground-color: black;\n\t}\n\t.mySlides {\n\t\tdisplay: block;\n\t\twidth: 100%;\n\t\theight: auto;\n\t}\n\t.prev, .next {\n\t\t  cursor: pointer;\n\t\t  position: absolute;\n\t\t  top: 50%;\n\t\t  width: auto;\n\t\t  margin-top: -22px;\n\t\t  padding: 20px;\n\t\t  color: white;\n\t\t  font-weight: bold;\n\t\t  font-size: 16px;\n\t\t  transition: 0.6s ease;\n\t\t  border-radius: 0 3px 3px 0;\n\t\t}\n\t.next {\n\t\t  right: 0;\n\t\t  border-radius: 3px 0 0 3px;\n\t}\n\t.prev:hover, .next:hover {\n\t\t  background-color: rgba(0,0,0,0.4);\n\t}\n\t.dot {\n\t\t  cursor:pointer;\n\t\t  height: 16px;\n\t\t  width: 16px;\n\t\t  margin: 0 5px;\n\t\t  background-color: #ddd;\n\t\t  border-radius: 50%;\n\t\t  display: inline-block;\n\t\t  transition: background-color 0.6s ease;\n\t}\n\t.active,.dot:hover {\n\t\t  background-color: #9c9c9c;\n\t}\n\t.slideshow-nav-btn {\n\t\ttext-align: center;\n\t\tposition: absolute;\n\t\twidth: 100%;\n\t\ttop: 90%;\n\t}\n\t.fade {\n\t\tanimation: fade 30s;\n\t}\n\t@-webkit-keyframes fade {\n\t  from {opacity: 0.4} \n\t  to {opacity: 1}\n\t}\n\t@keyframes fade {\n\t\tfrom {opacity: 0.4}\n\t\tto {opacity: 1;}\n\t}\n\t@media (min-width: 992px) {\n\t\t.prev, .next {\n\t\t\tfont-size: 20px;\n\t\t}\n\t}\t\n</style>\n\t<div class=\"slideshow-container\"> \n\n<a href=\"https://techmaster.vn/khoa-hoc/25610/web-frontend-cho-nguoi-moi-hoc\" target=\"_blank\">\n\t\t<img src=\"https://techmaster.vn/fileman/Uploads/frontend web.jpg\" class=\"mySlides fade\"></a>\n\n<a href=\"https://techmaster.vn/khoa-hoc/25554/lap-trinh-ios-swift-8-buoi\" target=\"_blank\">\n\t\t<img src=\"https://techmaster.vn/fileman/Uploads/users/5463/ios-banner.jpg\" class=\"mySlides fade\"></a>\n\n<a href=\"https://techmaster.vn/khoa-hoc/25599/lap-trinh-node-js-thuc-hanh\" target=\"_blank\">\n\t\t<img src=\"https://techmaster.vn/fileman/Uploads/Nodejs/node.png\" class=\"mySlides fade\"></a>\n\n\t\t    \n\n\t\t<a class=\"prev\" onclick=\"plusSlides(-1)\">❮</a>\n\t\t<a class=\"next\" onclick=\"plusSlides(1)\">❯</a>\n\n\t\t<div class=\"slideshow-nav-btn\">\n\n\t\t  <span class=\"dot\" onclick=\"currentSlide(1)\"></span> \n\t\t  <span class=\"dot\" onclick=\"currentSlide(2)\"></span> \n\t\t  <span class=\"dot\" onclick=\"currentSlide(3)\"></span>\n     \n                 \n               \n\n                \n\t\t</div>\t\n\t</div>\t\n\n\n<script type=\"text/javascript\">\n\tvar slideIndex = 1;\n\tshowSlides(slideIndex);\n\n\tfunction plusSlides(n) {\n\t  showSlides(slideIndex += n);\n\t}\n\n\tfunction currentSlide(n) {\n\t  showSlides(slideIndex = n);\n\t}\n\n\tfunction showSlides(n) {\n\t  var i;\n\t  var slides = document.getElementsByClassName(\"mySlides\");\n\t  var dots = document.getElementsByClassName(\"dot\");\n\t  //Create Infinite loop for slideshow\n\t  if (n > slides.length) {slideIndex = 1} \n\t  if (n < 1) {slideIndex = slides.length}\n\t  //Dispay none all sldie images\n\t  for (i = 0; i < slides.length; i++) {\n\t      slides[i].style.display = \"none\"; \n\t  }\n\t  //Remove all class 'active' for dots\n\t  for (i = 0; i < dots.length; i++) {\n\t      dots[i].className = dots[i].className.replace(\" active\", \"\");\n\t  }\n\t  //Display block only 1 image\n\t  slides[slideIndex-1].style.display = \"block\";\n\t  //Add class 'active' to only 1 dot \n\t  dots[slideIndex-1].className += \" active\";\n\n}\n</script>\n</div>",
+            "<p>This is p tag</p>"
+        ]
+    },
+    {
+        "Type": 1,
+        "Code": [
+            "<div id=\"how-learning\" class=\" col s12  white\">\n            <div class=\"row\">\n                <div class=\"center-align\" id=\"how-learn-title\">\n                    <h2>Học ở Techmaster như nào?</h2>\n                </div>\n            </div>\n            \n            <div class=\"container\">\n                <div class=\"row\">\n                    <div class=\"col s12 m4\">\n                        <div class=\"icon-block\" \"\n                             style=\"visibility: visible; \">\n                            <h2 class=\"center brown-text\"><i class=\"fa fa-video-camera\"></i></h2>\n                            <h5 class=\"center\">Xem Video</h5>\n\n                            <p class=\"light\">Luôn luôn phát triển, luôn cập nhật những công nghệ mới nhất</p>\n                        </div>\n                    </div>\n                    \n                    <div class=\"col s12 m4\">\n                        <div class=\"icon-block\"                             style=\"visibility: visible;\">\n                            <h2 class=\"center brown-text\"><i class=\"fa fa-code\"></i></h2>\n                            <h5 class=\"center\">Code Code Code</h5>\n\n                            <p class=\"light\">Đầy đủ thông tin, hài hước. Rất nhiều mẹo trong video sẽ hữu ích cho\n                                bạn\n                                trong quá trình lập trình</p>\n                        </div>\n                    </div>\n\n                    <div class=\"col s12 m4\">\n                        <div class=\"icon-block ib-last\" \n                             style=\"visibility: visible;\" >\n                            <h2 class=\"center brown-text\"><i class=\"fa fa-briefcase\"></i></h2>\n                            <h5 class=\"center\">Làm Project thật</h5>\n\n                            <p class=\"light\">Được tham gia làm các dự án, sản phẩm thực tế dưới sự hướng dẫn của giảng viên</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>",
+            "<p>This is p tag</p>"
+        ]
+    },
+    {
+        "Type": 2,
+        "Code": [
+            "<h2>This is H tag</h2>",
+            "<p>This is p tag</p>"
+        ]
+    },
+    {
+        "Type": 3,
+        "Code": [
+            "<h3>This is H tag</h3>",
+            "<p>This is p tag</p>"
+        ]
+    },
+    {
+        "Type": 4,
+        "Code": [
+            "<h4>This is H tag</h4>",
+            "<p>This is p tag</p>"
+        ]
+    },
+    {
+        "Type": 5,
+        "Code": [
+            "<h1>This is H tag</h1>",
+            "<p>This is p tag</p>",
+            "<span>This is span tag</span>"
+        ]
+    }
+]
