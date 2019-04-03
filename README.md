@@ -19,7 +19,7 @@ Mỗi layout có `Type` là loại template, và `Code` là nội dung sẽ đư
 
 ### Một số layout có sẵn
 
-![](https://i.ibb.co/Rvkd9mh/Untitled.jpg =100x20)
+![](https://i.ibb.co/Rvkd9mh/Untitled.jpg)
 
 
 ### Kết quả
